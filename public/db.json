@@ -1,0 +1,140 @@
+{
+    "manobras": [
+      {
+        "id": 1,
+        "nome": "Ollie",
+        "categoria": "Iniciante",
+        "descricaoCurta": "O salto básico e fundamental do skate.",
+        "descricaoCompleta": "O Ollie é a manobra base de todo o skate moderno. Consiste em bater o tail no chão (pop) e arrastar o pé da frente para nivelar o skate no ar, fazendo com que o skatista e o shape saltem sem o uso das mãos.",
+        "imagem": "https://images.unsplash.com/photo-1617034840325-b10d81550042?q=80&w=1470",
+        "dificuldade_num": 1,
+        "tags": ["solo", "fundamental", "salto"],
+        "destaque": true,
+        "base": "Regular ou Goofy",
+        "dica_mestre": "Bata o tail com força e chute o pé da frente arrastando até os parafusos."
+      },
+      {
+        "id": 2,
+        "nome": "Kickflip",
+        "categoria": "Intermediário",
+        "descricaoCurta": "O skate gira 360 graus no eixo longitudinal.",
+        "descricaoCompleta": "No Kickflip, o skatista executa a base do Ollie, mas chuta a borda externa do nose com o pé da frente para fazer o skate girar por baixo do corpo antes de aterrissar.",
+        "imagem": "https://images.unsplash.com/photo-1573054022697-3af201441528?w=600",
+        "dificuldade_num": 3,
+        "tags": ["flip", "classica", "rua"],
+        "destaque": true,
+        "base": "Requer Ollie consistente",
+        "dica_mestre": "O chute é para fora e levemente para baixo na quina do nose."
+      },
+      {
+        "id": 3,
+        "nome": "Heelflip",
+        "categoria": "Intermediário",
+        "descricaoCurta": "Similar ao Kickflip, mas girado com o calcanhar.",
+        "descricaoCompleta": "Diferente do Kickflip, o Heelflip utiliza o calcanhar do pé da frente para chutar a borda oposta do skate, fazendo-o girar na direção contrária à do Kickflip.",
+        "imagem": "https://images.unsplash.com/photo-1649281610716-94e4ee026d91?q=80&w=1470",
+        "dificuldade_num": 3,
+        "tags": ["flip", "calcanhar", "rua"],
+        "destaque": false,
+        "base": "Requer bom controle de peso",
+        "dica_mestre": "Chute com o calcanhar para a frente do seu corpo."
+      },
+      {
+        "id": 4,
+        "nome": "Pop Shuvit",
+        "categoria": "Iniciante",
+        "descricaoCurta": "O skate gira 180 graus horizontalmente por baixo dos pés.",
+        "descricaoCompleta": "Uma combinação de um leve pop com um impulso do pé de trás para trás, fazendo o shape girar em meia-lua sem que ele incline ou rotacione verticalmente.",
+        "imagem": "https://images.unsplash.com/photo-1772014687134-3f467e50535d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D",
+        "dificuldade_num": 2,
+        "tags": ["giro", "shuvit", "basico"],
+        "destaque": false,
+        "base": "Requer controle do pé de trás",
+        "dica_mestre": "Não tente pular muito alto no começo, foque em raspar o pé de trás para trás."
+      },
+      {
+        "id": 5,
+        "nome": "Frontside 180",
+        "categoria": "Iniciante",
+        "descricaoCurta": "Um Ollie girando corpo e skate 180 graus de frente.",
+        "descricaoCompleta": "O skatista executa um Ollie enquanto gira seus ombros e o quadril para a frente (direção do peito), fazendo com que ele mude a base de pouso completamente.",
+        "imagem": "https://images.unsplash.com/photo-1763044938341-1b0cf685095c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D",
+        "dificuldade_num": 2,
+        "tags": ["180", "giro-corpo", "frontside"],
+        "destaque": false,
+        "base": "Requer Ollie estável",
+        "dica_mestre": "Gire os ombros logo antes de bater o pop; o skate seguirá o seu corpo."
+      },
+      {
+        "id": 6,
+        "nome": "Backside 180",
+        "categoria": "Intermediário",
+        "descricaoCurta": "Um Ollie girando corpo e skate 180 graus de costas.",
+        "descricaoCompleta": "Semelhante ao Frontside 180, mas a rotação ocorre de costas para a direção do movimento. É um pouco mais complexo devido à perda temporária de visão do chão.",
+        "imagem": "https://images.unsplash.com/photo-1572029437331-09ca45a52dca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D",
+        "dificuldade_num": 3,
+        "tags": ["180", "giro-corpo", "backside"],
+        "destaque": false,
+        "base": "Requer boa noção espacial",
+        "dica_mestre": "Gire a cabeça acompanhando o movimento para achar o chão no pouso."
+      },
+      {
+        "id": 7,
+        "nome": "360 Flip",
+        "categoria": "Avançado",
+        "descricaoCurta": "O famoso Tre Flip: rotação de 360 do Shuvit com um Kickflip.",
+        "descricaoCompleta": "A manobra mais cobiçada das ruas. O pé de trás faz um movimento forte de concha (scoop) para rodar um 360 Shuvit, enquanto o pé da frente chuta levemente um Kickflip.",
+        "imagem": "https://images.unsplash.com/photo-1638250290918-0ecd4f985708?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D",
+        "dificuldade_num": 5,
+        "tags": ["avancado", "treflip", "rua"],
+        "destaque": true,
+        "base": "Requer Kickflip e Varial Flip",
+        "dica_mestre": "90% do segredo está na pressão e no scoop do seu pé de trás no tail."
+      },
+      {
+        "id": 8,
+        "nome": "Boardslide",
+        "categoria": "Transição e Corrimão",
+        "descricaoCurta": "Deslizar com o meio do shape no obstáculo.",
+        "descricaoCompleta": "A primeira manobra de cano ou borda de muita gente. O skatista manda um Ollie, gira 90 graus e encaixa o meio da tábua (shape) no obstáculo, deslizando de lado.",
+        "imagem": "https://images.unsplash.com/photo-1642323328160-bd8e483a8a47?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D",
+        "dificuldade_num": 2,
+        "tags": ["slide", "corrimao", "borda"],
+        "destaque": false,
+        "base": "Requer Ollie alto o suficiente",
+        "dica_mestre": "Mantenha o peso centralizado exatamente no meio das pernas para não escorregar."
+      },
+      {
+        "id": 9,
+        "nome": "50-50 Grind",
+        "categoria": "Transição e Corrimão",
+        "descricaoCurta": "Deslizar utilizando ambos os eixos (trucks) na borda.",
+        "descricaoCompleta": "Manobra básica de grind onde o skatista sobe no obstáculo paralelas e encaixa tanto o truck da frente quanto o de trás diretamente no ferro ou quina de alvenaria.",
+        "imagem": "https://images.unsplash.com/photo-1613234073279-4c9c1b049d90?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D",
+        "dificuldade_num": 3,
+        "tags": ["grind", "eixos", "borda"],
+        "destaque": false,
+        "base": "Controle de precisão no Ollie",
+        "dica_mestre": "Suba mirando o truck de trás primeiro, o da frente se alinha logo em seguida."
+      },
+      {
+        "id": 10,
+        "nome": "Hardflip",
+        "categoria": "Avançado",
+        "descricaoCurta": "Um Frontside Shuvit combinado com um Kickflip passando por entre as pernas.",
+        "descricaoCompleta": "Uma das manobras técnicas mais difíceis. O skate executa uma rotação vertical que passa de forma quase em pé por entre as pernas abertas do skatista.",
+        "imagem": "https://images.unsplash.com/photo-1454094309557-181967334e22?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D",
+        "dificuldade_num": 5,
+        "tags": ["avancado", "hard", "tecnica"],
+        "destaque": true,
+        "base": "Requer Frontside Shuvit perfeito",
+        "dica_mestre": "Abra bem as pernas e pule alto para dar espaço para o skate girar verticalmente."
+      }
+    ],
+    "categorias": [
+      { "id": "Iniciante", "nome": "Iniciante" },
+      { "id": "Intermediário", "nome": "Intermediário" },
+      { "id": "Avançado", "nome": "Avançado" },
+      { "id": "Transição e Corrimão", "nome": "Transição e Corrimão" }
+    ]
+  }

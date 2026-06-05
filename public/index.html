@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body style="background-color: #1a1a1a">
+
+<main>
+
+<nav class="navbar navbar-expand-md navbar-dark px-2" style="background-color: #1a1a1a;">
+    <div class="container-fluid d-flex justify-content-between align-items-center flex-nowrap">
+
+        <a href="index.html" class="navbar-brand fs-3 fs-md-1 fw-bold p-2 p-md-4 d-flex align-items-center" style="text-decoration: none; color: white;">
+            <img src="images/logo-gato-grafismo.png" 
+                 alt="Logo Skate Hub" 
+                 width="100" 
+                 height="100">
+                <span>SKATE HUB</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" style="margin-right: 10px;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+    </div>
+</nav>
+
+<section class="background">
+    <img src="https://images.unsplash.com/photo-1602878714398-b28d40926846?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt= "imagem de fundo de uma pessoa andando de skate"
+        class="background-img">
+
+    <div class="título-background">
+        <h2>Domine o skate</h2>
+    </div>
+
+    <div class="conteúdo-background">
+        <h3>Aprenda manobras e evolua mais rápido!</h3>
+    </div>
+</section>
+
+<div class="texto-conteudo">Comece por aqui</div>
+
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="col-12 col-md-3 mb-4">
+            <div class="card p-4 text-light" style="background-color: #2a2a2a;">
+                <h4 class="text-center mb-4">Filtrar</h4>
+
+                <div class="mb-3">
+                    <label class="form-label">Categoria:</label>
+                    <select class="form-select" id="filtro-categoria">
+                        <option>Todos</option>
+                        <option>Iniciante</option>
+                        <option>Intermediário</option>
+                        <option>Avançado</option>
+                        <option>Transição e Corrimão</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-9">
+            <div class="row g-4 justify-content-center" id="container-manobras"></div>
+        </div>
+
+    </div>
+</div>
+
+</main>
+
+<footer class="text-light text-center p-4 mt-5" style="background-color: #333;">
+    <p class="mb-0 fs-5">© 2026 Skate Hub - Criado por Iale Leles</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</html>
+</body>
