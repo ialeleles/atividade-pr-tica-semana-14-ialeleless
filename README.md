@@ -6,11 +6,11 @@ Com base nos tipos de projetos escolhidos, podemos propor visualizações que es
 
 ## Informações Gerais
 
-- Nome: 
-- Matricula: 
+- Nome: Iale Leles de Almeida
+- Matricula: 927707
 - Proposta de projeto escolhida: Skate Hub - Site para encontrar manobras de acordo com o nível de dificuldade.
 - Breve descrição sobre seu projeto: O projeto Skate Hub é um site para fãs de skate que querem aprender manobras de acordo com o seu nível de habilidade. Além disso, o site conta com o filtro de acordo com o nível de dificuldade das manobras, para facilitar os usuários.
 
-## Print da página de gráficos (funcionalidade 1) (*)
-
-## Print da página de gráficos (funcionalidade 2) (*)
+## Prints da página de gráficos (funcionalidade 1 e 2) (*)
+![alt text](<public/images/Captura de tela 2026-06-05 145102.png>)
+![alt text](<public/images/Captura de tela 2026-06-05 145110.png>)
